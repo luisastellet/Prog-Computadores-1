@@ -1,0 +1,6 @@
+nome = input('Digite seu nome: ').title()
+idade = input('Digite sua idade: ')
+altura = input('Digite sua altura: ')
+peso = input('Digite seu peso: ')
+nacionalidade = input('Digite sua nacionalidade: ')
+print('{} tem {} anos de idade, {}m de altura, {}kg e é {}.' .format(nome, idade, altura, peso, nacionalidade))
