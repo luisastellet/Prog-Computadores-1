@@ -10,7 +10,6 @@ Yc = float(input("Digite o Y do ponto C: "))
 #distancia entre B e C -> lado 2
 #distancia entre C e A -> lado 3
 
-#Tem isso na biblioteca math?
 L1 = math.sqrt((Xb - Xa)**2 + (Yb - Ya)**2)
 L2 = math.sqrt((Xc - Xb)**2 + (Yc - Yb)**2) 
 L3 = math.sqrt((Xa - Xc)**2 + (Ya - Yc)**2)
